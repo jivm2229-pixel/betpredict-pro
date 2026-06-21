@@ -113,12 +113,83 @@ Analizar Partido
 
 <script>
 
+
 function analizar(){
 
-document.getElementById("resultado").style.display="block";
+let partido = document.getElementById("partido").value;
+
+let html = "";
+
+if(partido === "Portugal vs RD Congo"){
+
+html = `
+<h3>Portugal vs RD Congo</h3>
+
+<p>Victoria Portugal (78%)</p>
+<div class="barra" style="width:78%"></div>
+
+<p>Over 1.5 goles (89%)</p>
+<div class="barra" style="width:89%"></div>
+
+<p>Over 2.5 goles (67%)</p>
+<div class="barra" style="width:67%"></div>
+
+<p>Ambos anotan (42%)</p>
+<div class="barra" style="width:42%"></div>
+
+<p>Marcador probable: 3-0</p>
+`;
 
 }
 
+if(partido === "Inglaterra vs Croacia"){
+
+html = `
+<h3>Inglaterra vs Croacia</h3>
+
+<p>Victoria Inglaterra (54%)</p>
+<div class="barra" style="width:54%"></div>
+
+<p>Over 1.5 goles (71%)</p>
+<div class="barra" style="width:71%"></div>
+
+<p>Over 2.5 goles (48%)</p>
+<div class="barra" style="width:48%"></div>
+
+<p>Ambos anotan (46%)</p>
+<div class="barra" style="width:46%"></div>
+
+<p>Marcador probable: 2-0</p>
+`;
+
+}
+
+if(partido === "Colombia vs Uzbekistán"){
+
+html = `
+<h3>Colombia vs Uzbekistán</h3>
+
+<p>Victoria Colombia (74%)</p>
+<div class="barra" style="width:74%"></div>
+
+<p>Over 1.5 goles (83%)</p>
+<div class="barra" style="width:83%"></div>
+
+<p>Over 2.5 goles (61%)</p>
+<div class="barra" style="width:61%"></div>
+
+<p>Ambos anotan (38%)</p>
+<div class="barra" style="width:38%"></div>
+
+<p>Marcador probable: 2-0</p>
+`;
+
+}
+
+document.getElementById("resultado").innerHTML = html;
+document.getElementById("resultado").style.display = "block";
+
+}
 </script>
 
 </body>
