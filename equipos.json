@@ -1,0 +1,81 @@
+[
+  {
+    "equipo":"Argentina",
+    "elo":1950,
+    "golesFavor":2.3,
+    "golesContra":0.7,
+    "over15":88,
+    "over25":63,
+    "ambos":42
+  },
+
+  {
+    "equipo":"Portugal",
+    "elo":1890,
+    "golesFavor":2.2,
+    "golesContra":0.8,
+    "over15":89,
+    "over25":67,
+    "ambos":45
+  },
+
+  {
+    "equipo":"Inglaterra",
+    "elo":1885,
+    "golesFavor":2.1,
+    "golesContra":0.9,
+    "over15":84,
+    "over25":59,
+    "ambos":48
+  },
+
+  {
+    "equipo":"Colombia",
+    "elo":1840,
+    "golesFavor":1.9,
+    "golesContra":0.8,
+    "over15":83,
+    "over25":61,
+    "ambos":38
+  },
+
+  {
+    "equipo":"Francia",
+    "elo":1910,
+    "golesFavor":2.4,
+    "golesContra":0.9,
+    "over15":90,
+    "over25":68,
+    "ambos":49
+  },
+
+  {
+    "equipo":"España",
+    "elo":1870,
+    "golesFavor":2.0,
+    "golesContra":0.8,
+    "over15":82,
+    "over25":58,
+    "ambos":41
+  },
+
+  {
+    "equipo":"Brasil",
+    "elo":1905,
+    "golesFavor":2.3,
+    "golesContra":0.9,
+    "over15":87,
+    "over25":65,
+    "ambos":47
+  },
+
+  {
+    "equipo":"México",
+    "elo":1760,
+    "golesFavor":1.6,
+    "golesContra":1.0,
+    "over15":76,
+    "over25":51,
+    "ambos":52
+  }
+]
