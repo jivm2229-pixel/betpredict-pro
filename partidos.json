@@ -1,15 +1,22 @@
 [
   {
-    "partido":"Portugal vs RD Congo",
-    "victoria":78,
-    "over15":89,
-    "over25":67,
-    "ambos":42,
-    "marcador":"3-0",
-    "recomendacion":"Over 1.5 goles",
-    "riesgo":"Bajo",
-    "confianza":"⭐⭐⭐⭐⭐",
-    "valor":"Positivo"
+    
+  "partido":"Portugal vs RD Congo",
+  "victoria":78,
+  "over15":89,
+  "over25":67,
+  "ambos":42,
+  "marcador":"3-0",
+  "recomendacion":"Over 1.5 goles",
+  "riesgo":"Bajo",
+  "confianza":"⭐⭐⭐⭐⭐",
+  "valor":"Positivo",
+
+  "forma":"Buena",
+  "tendenciaOver":"Alta",
+  "tendenciaBTTS":"Media",
+  "indice":82
+
   },
   {
     "partido":"Inglaterra vs Croacia",
@@ -22,6 +29,12 @@
     "riesgo":"Medio",
     "confianza":"⭐⭐⭐⭐",
     "valor":"Neutral"
+
+    "forma":"Media",
+"tendenciaOver":"Alta",
+"tendenciaBTTS":"Media",
+"indice":71
+    
   },
   {
     "partido":"Colombia vs Uzbekistán",
@@ -34,5 +47,11 @@
     "riesgo":"Bajo",
     "confianza":"⭐⭐⭐⭐⭐",
     "valor":"Positivo"
+    
+"forma":"Buena",
+"tendenciaOver":"Alta",
+"tendenciaBTTS":"Baja",
+"indice":79
+    
   }
 ]
