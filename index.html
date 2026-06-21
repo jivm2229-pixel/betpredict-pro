@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BetPredict Pro</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    background:#7c3aed;
+    padding:20px;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.container{
+    padding:20px;
+}
+
+.card{
+    background:#1e293b;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:15px;
+}
+
+button{
+    width:100%;
+    background:#7c3aed;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:10px;
+    font-size:18px;
+}
+
+select{
+    width:100%;
+    padding:12px;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.resultado{
+    display:none;
+}
+
+.probabilidad{
+    margin:10px 0;
+}
+
+.barra{
+    height:20px;
+    background:#7c3aed;
+    border-radius:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+BetPredict Pro ⚽
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h3>Selecciona un partido</h3>
+
+<select id="partido">
+<option>Portugal vs RD Congo</option>
+<option>Inglaterra vs Croacia</option>
+<option>Colombia vs Uzbekistán</option>
+</select>
+
+<button onclick="analizar()">
+Analizar Partido
+</button>
+
+</div>
+
+<div class="card resultado" id="resultado">
+
+<h3>Escenarios Probables</h3>
+
+<p>Victoria Local</p>
+<div class="barra" style="width:74%"></div>
+
+<p>Over 1.5 Goles</p>
+<div class="barra" style="width:88%"></div>
+
+<p>Over 2.5 Goles</p>
+<div class="barra" style="width:66%"></div>
+
+<p>Ambos Anotan</p>
+<div class="barra" style="width:42%"></div>
+
+</div>
+
+</div>
+
+<script>
+
+function analizar(){
+
+document.getElementById("resultado").style.display="block";
+
+}
+
+</script>
+
+</body>
+</html>
