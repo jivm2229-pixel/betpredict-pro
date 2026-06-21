@@ -1,0 +1,38 @@
+[
+  {
+    "partido":"Portugal vs RD Congo",
+    "victoria":78,
+    "over15":89,
+    "over25":67,
+    "ambos":42,
+    "marcador":"3-0",
+    "recomendacion":"Over 1.5 goles",
+    "riesgo":"Bajo",
+    "confianza":"⭐⭐⭐⭐⭐",
+    "valor":"Positivo"
+  },
+  {
+    "partido":"Inglaterra vs Croacia",
+    "victoria":54,
+    "over15":71,
+    "over25":48,
+    "ambos":46,
+    "marcador":"2-0",
+    "recomendacion":"Over 1.5 goles",
+    "riesgo":"Medio",
+    "confianza":"⭐⭐⭐⭐",
+    "valor":"Neutral"
+  },
+  {
+    "partido":"Colombia vs Uzbekistán",
+    "victoria":74,
+    "over15":83,
+    "over25":61,
+    "ambos":38,
+    "marcador":"2-0",
+    "recomendacion":"Colombia gana",
+    "riesgo":"Bajo",
+    "confianza":"⭐⭐⭐⭐⭐",
+    "valor":"Positivo"
+  }
+]
